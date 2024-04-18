@@ -1,6 +1,6 @@
-# Video animation
+# Background video animation
 
-![img](/fire_bg.png)
+![img](/bg_video_animation/fire_bg.png)
 
 - HTML, CSS, JS
 - [Swiper](https://swiperjs.com/) - slider

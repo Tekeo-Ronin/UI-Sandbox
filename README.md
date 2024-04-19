@@ -5,3 +5,13 @@
 - HTML, CSS, JS
 - [Swiper](https://swiperjs.com/) - slider
 - [GSAP](https://gsap.com/) - animation
+
+---
+
+# 3D Paralax scene
+
+![img](/3d_paralax/3d_paralax.png)
+
+- HTML
+- CSS
+- JS

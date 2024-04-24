@@ -20,7 +20,9 @@
 
 # Scroll Paralax
 
-![example](/scroll_paralax/example.mov)
+<video width="320" height="240" controls>
+  <source src="/scroll_paralax/example.mov" type="video/mp4">
+</video>
 
 - HTML
 - CSS

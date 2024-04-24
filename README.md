@@ -22,6 +22,5 @@
 
 ![example 1](/scroll_paralax/example_1.png)
 
-- HTML
-- CSS
-- JS
+- HTML, CSS, JS
+- [GSAP](https://gsap.com/) - animation

@@ -15,3 +15,13 @@
 - HTML
 - CSS
 - JS
+
+---
+
+# Scroll Paralax
+
+![example](/scroll_paralax/example.mov)
+
+- HTML
+- CSS
+- JS

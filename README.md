@@ -21,7 +21,6 @@
 # Scroll Paralax
 
 ![example 1](/scroll_paralax/example_1.png)
-![example 2](/scroll_paralax/example_2.png)
 
 - HTML
 - CSS

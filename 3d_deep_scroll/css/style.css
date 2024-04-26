@@ -19,7 +19,7 @@ body {
 }
 
 .scene {
-  height: 400vh;
+  height: 500vh;
 }
 
 .layer {
@@ -78,12 +78,32 @@ body {
 }
 
 .layer:nth-child(5) {
-  animation-name: animation-5;
+  opacity: 0;
+  animation-range: 250vh 300vh;
+  animation-name: animation-end;
+}
+
+@keyframes animation-end {
+  to {
+    opacity: 1;
+  }
 }
 
 .layer__content {
   padding: 5vh 5vw;
   backdrop-filter: blur(25px) brightness(0.98);
+  animation-timeline: scroll();
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-range: 0 50vh;
+  animation-name: animation-head;
+}
+
+@keyframes animation-head {
+  to {
+    opacity: 0;
+    filter: blur(25px);
+  }
 }
 
 .layer__content h1 {
@@ -92,4 +112,27 @@ body {
   text-align: center;
   line-height: 0.9em;
   letter-spacing: -0.15vw;
+}
+
+.layer__end h3 {
+  font-size: 4rem;
+  position: relative;
+}
+
+.layer__end::before {
+  content: "";
+  background-color: #01122b;
+  inset: 0;
+  position: absolute;
+  animation-timeline: scroll();
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-range: 300vh 450vh;
+  animation-name: animation-bg;
+}
+
+@keyframes animation-bg {
+  to {
+    opacity: 1;
+  }
 }

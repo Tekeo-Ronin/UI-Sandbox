@@ -33,3 +33,12 @@
 
 - HTML
 - CSS
+
+---
+
+# Smooth Scroll
+
+![example 4](/smooth_paralax_scroll/smooth-scroll.png)
+
+- HTML, CSS, JS
+- [GSAP](https://gsap.com) - animation

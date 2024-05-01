@@ -47,7 +47,7 @@
 
 # 3D Scroll
 
-![example 5](/3d_scroll/3d-scroll.png)
+![example 5](/3d_scroll/3d_scroll.png)
 
 - HTML
 - CSS

@@ -12,10 +12,13 @@ window.onscroll = function () {
 
   frames.forEach(function (n, i) {
     zVals.push(i * zSpacing + zSpacing); //нове значення позиції для поточного фрейму
-    zVals[i] += delta * -5; //додаємо зміщення для контролю руху фрейму
+    zVals[i] += delta * -5.5; //додаємо зміщення для контролю руху фрейму *регулюємо швидкість анімації*
 
     let frame = frames[i], //поточний фрейм
-      transform = `translateZ(${zVals[i]}px)`; //створюємо трансформ
-    frame.setAttribute("style", `transform: ${transform}`); //встановлюємо атрибут стилю з трансформом
+      transform = `translateZ(${zVals[i]}px)`, //створюємо трансформ
+      opacity = zVals[i] < Math.abs(zSpacing) / 1.8 ? 1 : 0; // *регулюємо швидкість зникання*
+    frame.setAttribute("style", `transform: ${transform}; opacity: ${opacity}`); //встановлюємо атрибут стилю з трансформом
   });
 };
+
+window.scrollTo(0, 1);

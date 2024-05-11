@@ -69,3 +69,15 @@ body {
 .loaded .header span {
   opacity: 0;
 }
+
+/* Dark mode section */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-dark);
+  }
+
+  .header {
+    filter: invert(100%);
+  }
+}

@@ -23,3 +23,12 @@ body {
   inset: 0;
   background-size: cover;
 }
+
+.slider__item {
+  overflow: hidden;
+}
+
+.slider-wrapper,
+.slider__layer {
+  will-change: transform;
+}

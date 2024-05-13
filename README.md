@@ -61,3 +61,12 @@
 
 - HTML, CSS, JS
 - [GSAP](https://gsap.com) - animation
+
+---
+
+# Horizontal parallax
+
+![example 6](/horizontal-parallax/preview_img.jpg)
+
+- HTML, CSS, JS
+- [Swiper](https://swiperjs.com/) - slider

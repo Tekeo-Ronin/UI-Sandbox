@@ -5,7 +5,7 @@
 }
 
 :root {
-  --index: calc(1vh + 2vw);
+  --transition: 1.75s cubic-bezier(0.2, 0.6, 0, 1);
 }
 
 html,
@@ -22,13 +22,27 @@ body {
   position: absolute;
   inset: 0;
   background-size: cover;
+  background-position: center;
+}
+
+.slider__layer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  box-shadow: inset 0 0 250px rgb(0, 0, 0 / 0.3);
 }
 
 .slider__item {
   overflow: hidden;
 }
 
+.slider-wrapper {
+  transform-style: preserve-3d;
+}
+
 .slider-wrapper,
 .slider__layer {
   will-change: transform;
+  transition: var(--transition) !important;
 }

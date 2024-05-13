@@ -44,5 +44,6 @@ body {
 .slider-wrapper,
 .slider__layer {
   will-change: transform;
-  transition: var(--transition) !important;
+  /* transition for free mode */
+  /* transition: var(--transition) !important;  */
 }

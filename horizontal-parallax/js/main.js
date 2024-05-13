@@ -1,4 +1,5 @@
 new Swiper(".slider", {
+  // direction: "vertical", //vertical slider mode
   speed: 2400,
   mousewheel: {
     enabled: true,
@@ -6,5 +7,5 @@ new Swiper(".slider", {
   },
   spaceBetween: 18,
   parallax: true,
-  freeMode: true,
+  //   freeMode: true,
 });

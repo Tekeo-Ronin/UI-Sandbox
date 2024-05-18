@@ -1,72 +1,82 @@
-# Background video animation
+# UI-Sandbox
 
-![img](/bg_video_animation/fire_bg.png)
+![image](./img/index.png)
 
-- HTML, CSS, JS
-- [Swiper](https://swiperjs.com/) - slider
-- [GSAP](https://gsap.com/) - animation
+A collection of UI solutions, including various animation and parallax effects, using HTML, CSS, and JavaScript.
 
----
+## Features
 
-# 3D Paralax scene
+### Background Video Animation
 
-![img](/3d_paralax/3d_paralax.png)
+![image](./img/bg_video_animation.png)
 
-- HTML
-- CSS
-- JS
+- **Technologies**: HTML, CSS, JS
+- **Libraries**: Swiper (slider), GSAP (animation)
 
----
+### 3D Parallax Scene
 
-# Scroll Paralax
+![image](./img/3d_parallax.png)
 
-![example 1](/scroll_paralax/example_1.png)
+- **Technologies**: HTML, CSS, JS
 
-- HTML, CSS, JS
-- [GSAP](https://gsap.com/) - animation
+### Scroll Parallax
 
----
+![image](./img/scroll_parallax.png)
 
-# Deep 3D Scroll
+- **Technologies**: HTML, CSS, JS
+- **Libraries**: GSAP (animation)
 
-![example 3](/3d_deep_scroll/deep_scroll.png)
+### Deep 3D Scroll
 
-- HTML
-- CSS
+![image](./img/3d_deep_scroll.png)
 
----
+- **Technologies**: HTML, CSS
 
-# Smooth Scroll
+### Smooth Scroll
 
-![example 4](/smooth_paralax_scroll/smooth-scroll.png)
+![image](./img/smooth_parallax_scroll.png)
 
-- HTML, CSS, JS
-- [GSAP](https://gsap.com) - animation
+- **Technologies**: HTML, CSS, JS
+- **Libraries**: GSAP (animation)
 
----
+### 3D Scroll
 
-# 3D Scroll
+![image](./img/3d_scroll.png)
 
-![example 5](/3d_scroll/3d_scroll.png)
+- **Technologies**: HTML, CSS, JS
 
-- HTML
-- CSS
-- JS
+### Draggable Gallery
 
----
+![image](./img/draggable.png)
 
-# Draggable gallery
+- **Technologies**: HTML, CSS, JS
+- **Libraries**: GSAP (animation)
 
-![example 5](/draggable/draggable.png)
+### Horizontal Parallax
 
-- HTML, CSS, JS
-- [GSAP](https://gsap.com) - animation
+![image](./img/horizontal-parallax.jpg)
 
----
+- **Technologies**: HTML, CSS, JS
+- **Libraries**: Swiper (slider)
 
-# Horizontal parallax
+## Installation
 
-![example 6](/horizontal-parallax/preview_img.jpg)
+1. Clone the repository:
 
-- HTML, CSS, JS
-- [Swiper](https://swiperjs.com/) - slider
+    ```sh
+    git clone https://github.com/Tekeo-Ronin/UI-Sandbox.git
+    ```
+
+2. Open `index.html` in your browser to view the examples.
+
+## Usage
+
+Use these UI solutions to enhance your web projects with advanced animations and interactive elements.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
